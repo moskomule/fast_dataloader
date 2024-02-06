@@ -1,39 +1,11 @@
-# PyProject Template
 
-This template automatically create a repository with [hatch](https://hatch.pypa.io/) using a given repository name.
-For example, if you create a repository "foo" with this template and wait a few seconds,
-the repository becomes something like below.
 
-```
-.gitignore
-.github/workflows/...
-docs/index.md
-tests/...
-foo/__init__.py
-foo/__about__.py
-mkdocs.yml
-pyproject.toml
-LICENCE
-README.md
-```
-
-The created repository is ready for unit tests and document generation.
-After cloning the created repository, edit the generated files according to your needs, e.g., appending dependencies in `pyproject.toml`.
-
-To activate GitHub pages, go to `settings/pages/sources` and change it to `GitHub Actions`, so that the documents will automatically created.
-
-To extend this template, fork this template and name it `*-template` to disable the [initializer action](.github/workflows/init.yaml).
-
-The following section is the template of `README.md`.
-
----
-
-# {repo_name}
+# fast_dataloader
 
 **This project is work in progress**
 
-![pytest](https://github.com/{owner_name}/{repo_name}/workflows/pytest/badge.svg)
-[![document](https://img.shields.io/static/v1?label=doc&message={repo_name}&color=blue)](https://{owner_name}.github.io/{repo_name})
+![pytest](https://github.com/moskomule/fast_dataloader/workflows/pytest/badge.svg)
+[![document](https://img.shields.io/static/v1?label=doc&message=fast_dataloader&color=blue)](https://moskomule.github.io/fast_dataloader)
 
 ## Installation
 

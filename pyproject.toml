@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "{repo_name}"
+name = "fast_dataloader"
 description = ''
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 keywords = []
 authors = [
-    {{ name = "{owner_name}", email = "{owner_name}@users.noreply.github.com" }},
+    { name = "moskomule", email = "moskomule@users.noreply.github.com" },
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -28,12 +28,12 @@ dynamic = ["version"]
 PIP_EXTRA_INDEX_URL = "https://pypi.org/simple/"
 
 [project.urls]
-Documentation = "https://{owner_name}.github.io/{repo_name}"
-Issues = "https://github.com/{owner_name}/{repo_name}/issues"
-Source = "https://github.com/{owner_name}/{repo_name}"
+Documentation = "https://moskomule.github.io/fast_dataloader"
+Issues = "https://github.com/moskomule/fast_dataloader/issues"
+Source = "https://github.com/moskomule/fast_dataloader"
 
 [tool.hatch.version]
-path = "{repo_name}/__about__.py"
+path = "fast_dataloader/__about__.py"
 
 [tool.hatch.envs.tests]
 dependencies = [

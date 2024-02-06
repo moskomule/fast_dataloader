@@ -1,9 +1,9 @@
-site_name: {repo_name}
+site_name: fast_dataloader
 site_description: ...
-site_author: {owner_name}
-site_url: https://{owner_name}.github.io/{repo_name}
-repo_name: {owner_name}/{repo_name}
-repo_url: https://github.com/{owner_name}/{repo_name}
+site_author: moskomule
+site_url: https://moskomule.github.io/fast_dataloader
+repo_name: moskomule/fast_dataloader
+repo_url: https://github.com/moskomule/fast_dataloader
 edit_uri: blob/main/docs
 
 theme:
