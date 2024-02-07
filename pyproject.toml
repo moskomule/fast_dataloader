@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "fast_dataloader"
 description = ''
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = "MIT"
 keywords = []
 authors = [
@@ -15,12 +15,16 @@ authors = [
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: Implementation :: CPython",
 ]
 dependencies = [
-    "rich"
+    "rich",
+    "torch",
+    "torchvision",
+    "tensordict",
+    "tqdm"
 ]
 dynamic = ["version"]
 
@@ -41,7 +45,7 @@ dependencies = [
 ]
 
 [[tool.hatch.envs.test.matrix]]
-python = ["310", ]
+python = ["311", ]
 
 [tool.hatch.envs.docs]
 extra-dependencies = [

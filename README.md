@@ -1,6 +1,6 @@
-
-
 # fast_dataloader
+
+A PyTorch data loader using tar and tensordict
 
 **This project is work in progress**
 
@@ -9,12 +9,6 @@
 
 ## Installation
 
-```
-hatch create env
-```
-
-or
-
-```
-pip install -U -e .
+```commandline
+pip install -U git+https://github.com/moskomule/fast_dataloader
 ```
